@@ -1,0 +1,11 @@
+{
+  "name": "rollup-use-demo",
+  "version": "1.0.0",
+  "description": "rollup 使用",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup src/index.js -f es -o dist/dist.js"
+  },
+  "author": "CodeMadS2",
+  "license": "ISC"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "rollup-use-demo",
+  "version": "1.0.0",
+  "description": "rollup 使用",
+  "main": "index.js",
+  "scripts": {
+    "build:amd": "rollup src/index.js -f es -o dist/dist.amd.js",
+    "build:cjs": "rollup src/index.js -f es -o dist/dist.cjs.js",
+    "build:es": "rollup src/index.js -f es -o dist/dist.es.js",
+    "build:iife": "rollup src/index.js -f es -o dist/dist.ife.js",
+    "build:umd": "rollup src/index.js -f es -o dist/dist.umd.js",
+    "build:all": "npm run build:amd && npm run build:cjs && npm run build:es && npm run build:iife && npm run build:umd"
+  },
+  "author": "CodeMadS2",
+  "license": "ISC"
+}

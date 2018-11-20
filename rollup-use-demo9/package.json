@@ -1,0 +1,23 @@
+{
+  "name": "rollup-use-demo",
+  "version": "1.0.0",
+  "description": "rollup 使用",
+  "main": "index.js",
+  "scripts": {
+    "build:dev": "rollup -c --environment NODE_ENV:dev",
+    "build:prod": "rollup -c --environment NODE_ENV:prod"
+  },
+  "author": "CodeMadS2",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "lodash": "^4.17.11",
+    "rollup": "^0.66.6",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-uglify": "^6.0.0",
+    "zepto": "^1.2.0"
+  }
+}

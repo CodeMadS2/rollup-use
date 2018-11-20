@@ -1,0 +1,14 @@
+{
+  "name": "rollup-use-demo",
+  "version": "1.0.0",
+  "description": "rollup 使用",
+  "main": "index.js",
+  "scripts": {
+    "build:base": "rollup -c rollup.base.config.js",
+    "build:module": "rollup -c rollup.module.config.js",
+    "build:modules": "rollup -c rollup.modules.config.js",
+    "build:targets": "rollup -c rollup.targets.config.js"
+  },
+  "author": "CodeMadS2",
+  "license": "ISC"
+}
